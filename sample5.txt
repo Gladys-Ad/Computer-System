@@ -1,0 +1,88 @@
+//Prints grade = A
+1	//load value into ac
+43
+25 	//increment x
+14	//copy x into ac
+2	//load from address
+14
+10	//add x to ac
+9	//print ac as char
+2
+17	//copy y into ac
+14	//copy ac into x
+18	//copy ac into sp
+21	//conditional jump 
+19
+60	
+
+.1000
+30	//restore sp and pc
+
+.52
+1	//load value into ac
+100
+9	//print ac as char
+2
+16	//copy ac into y
+19	//copy sp into ac
+14	//copy ac into x
+25	//increment x
+15	//copy x into ac
+11	//add y to ac
+9	//print ac as char
+2
+20	//jump to address
+100
+
+.19
+1	//load value into ac
+100
+14	//copy ac into x
+1	//load value into ac
+14
+10	//add x to ac
+9	//print ac as char
+2
+19	//copy sp into ac
+16	//copy ac into y
+1	//load value to ac
+3
+16	//copy ac into y
+15	//copy x into ac
+13	//subtract y from ac
+9	//print ac as char
+2
+22	//conditional jump
+52 
+29	
+
+
+.100
+1	//load value into ac
+32	
+9	//print as char
+2
+16	//copy ac into y
+2	//load from address
+38
+11	//add y to ac
+9	//print as char
+2
+19	//copy sp into ac
+14	//copy ac into x
+25	// increment x
+1	//load value into ac
+32
+9	//print ac as char
+2
+16	//copy ac to y	
+10	//add x into ac
+11	//add y into ac
+9	//print ac as char
+2
+2	//load from address
+24	
+9	//print as char
+2
+50	//end
+
